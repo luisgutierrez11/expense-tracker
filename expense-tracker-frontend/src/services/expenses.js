@@ -1,5 +1,9 @@
 import axios from 'axios'
-const baseUrl = '/api/expenses'
+// const baseUrl = '/api/expenses'
+const api = axios.create({
+  baseURL: import.meta.env.VITE_API_URL
+})
+
 
 // Token JWT que se setea luego del login
 let token = null
@@ -11,7 +15,7 @@ const setToken = newToken => {
 
 // Obtener todos los gastos (ruta pública en este caso, depende del backend)
 const getAll = async () => {
-  const response = await axios.get(baseUrl)
+  const response = await api.get('/api/expenses')
   return response.data
 }
 
@@ -21,7 +25,7 @@ const create = async newObject => {
       headers: { Authorization: token },
   }
 
-  const response = await axios.post(baseUrl, newObject, config)
+  const response = await api.post('/api/expenses', newObject, config)
   return response.data
 }
 
@@ -37,7 +41,7 @@ const erase = async id => {
       headers: { Authorization: token },
   }
 
-  const response = await axios.delete(`${baseUrl}/${id}`, config)
+  const response = await api.delete(`/api/expenses/${id}`, config)
   return response.data
 }
 
