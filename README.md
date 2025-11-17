@@ -147,6 +147,10 @@ Recuperación de contraseña
 Exportar gastos a CSV/Excel
 Edición de gastos
 
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT — ver el archivo LICENSE para más detalles.
+
 ## 👤 Autor
 
 Luis Gutiérrez
