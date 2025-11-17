@@ -49,6 +49,7 @@ Jest + Supertest (unitarias e integración)
 
 ## 🗂️ Estructura del proyecto
 
+```
 expense-tracker
 ├── frontend
 │ ├── src
@@ -61,6 +62,7 @@ expense-tracker
 │ ├── utils
 │ └── package.json
 └── README.md (este archivo)
+```
 
 ---
 
