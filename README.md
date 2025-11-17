@@ -53,6 +53,7 @@ Jest + Supertest (unitarias e integración)
 expense-tracker
 ├── frontend
 │ ├── src
+│ ├── tests
 │ ├── public
 │ └── package.json
 ├── backend
@@ -80,7 +81,7 @@ expense-tracker
 
 ![Add expense](./screenshots/add-expense.png)
 
-### Vista móvil (opcional)
+### Vista móvil
 
 ![Mobile](./screenshots/mobile-dashboard.png)
 
