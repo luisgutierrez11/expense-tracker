@@ -97,25 +97,40 @@ cd expense-tracker
 ### 2. Instalar dependencias
 
 Frontend:
+
+```
 cd frontend
 npm install
+```
 
 Backend:
+
+```
 cd backend
 npm install
+```
 
 ## ▶️ Cómo ejecutar el proyecto
 
 Frontend
 
+```
 npm run dev
+```
+
 Corre en: http://localhost:5173
 
 Backend
 
+```
 npm run dev (si usás nodemon)
+```
+
 o
+
+```
 npm start
+```
 
 Corre en:
 http://localhost:3001
@@ -124,9 +139,11 @@ http://localhost:3001
 
 Crear un archivo .env dentro de /backend con:
 
+```
 PORT=3001
 MONGODB_URI=tu_uri_atlas
 SECRET=tu_secreto_para_jwt
+```
 
 (No es necesario instalar dotenv en el frontend.)
 
@@ -138,19 +155,31 @@ Pruebas unitarias
 Pruebas de integración con Supertest
 
 Comando:
+
+```
 npm test
+```
 
 Para iniciar una db alterna de pruebas para e2e:
+
+```
 npm run start:test
+```
 
 Frontend
 
 Unitarias:
+
+```
 npm test
+```
 
 E2E con Playwright:
+
+```
 npx playwright test
 npx playwright test --ui (modo gráfico)
+```
 
 Cubre:
 Crear gasto
@@ -168,7 +197,10 @@ Backend
 Render / Railway / Fly.io
 
 Luego actualizar en el frontend:
+
+```
 VITE_API_URL=https://tu-backend.onrender.com/api
+```
 
 ## 🚧 Roadmap / Próximas mejoras
 
@@ -189,5 +221,8 @@ Este proyecto está bajo la licencia MIT — ver el archivo LICENSE para más de
 
 Luis Gutiérrez
 Desarrollador Web Fullstack
+
+```
 GitHub: https://github.com/luisgutierrez11
 Email: luis.gut.11jm@gmail.com
+```
