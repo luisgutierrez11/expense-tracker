@@ -56,7 +56,7 @@ expense-tracker
 
 ### 1. Clonar el repositorio
 
-git clone https://github.com/tu-usuario/expense-tracker.git // AJUSTAR
+git clone https://github.com/luisgutierrez11/expense-tracker.git
 
 cd expense-tracker
 
