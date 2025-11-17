@@ -4,6 +4,16 @@ Aplicación fullstack para gestionar gastos personales con autenticación, persi
 Permite crear, editar y eliminar gastos, iniciar sesión, y almacenar toda la información de forma segura en un backend con Node.js, Express y MongoDB Atlas.
 El frontend está desarrollado con React + Tailwind CSS, y cuenta con pruebas unitarias y E2E.
 
+## 🏷️ Badges
+
+![React](https://img.shields.io/badge/React-18.0-blue)
+![Node.js](https://img.shields.io/badge/Node.js-18-green)
+![Express](https://img.shields.io/badge/Express.js-black)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+---
+
 ## 🚀 Características principales
 
 🔐 Registro e inicio de sesión
