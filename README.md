@@ -62,6 +62,28 @@ expense-tracker
 │ └── package.json
 └── README.md (este archivo)
 
+---
+
+## 📸 Capturas
+
+### Login
+
+![Login](./screenshots/login.png)
+
+### Dashboard principal
+
+![Dashboard](./screenshots/dashboard.png)
+
+### Agregar gasto
+
+![Add expense](./screenshots/add-expense.png)
+
+### Vista móvil (opcional)
+
+![Mobile](./screenshots/mobile-dashboard.png)
+
+---
+
 ## ⚙️ Instalación y ejecución
 
 ### 1. Clonar el repositorio
